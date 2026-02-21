@@ -8,7 +8,7 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: up-lantern-archive.github.io
+url: up-lantern-archive.shansurat.dev
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /
 # location of code, the full url to your github repository
@@ -34,7 +34,7 @@ author: Shan Surat
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: demo-metadata 
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
