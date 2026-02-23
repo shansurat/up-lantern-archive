@@ -5,7 +5,7 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
+about-featured-image: uplp-2025-001
 # set background-position for featured image, "center", "top", "bottom"
 position: bottom
 # major heading to display over featured image
@@ -18,22 +18,16 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+## About UP Lantern Archive
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+UP Lantern Archive is an unofficial digital archive of UP Diliman Lantern Parade entries.
+It documents lanterns through photos, videos, and descriptive metadata to help preserve their visual and cultural history.
+The collection includes not only photos of individual lanterns but also images of the wider UP Diliman Lantern Parade event.
+Some materials come from official news outlets, while others are sourced from blogs and other public online references.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+This site is intended as a browsable and searchable record of parade themes, creators, and years, making it easier for students, alumni, researchers, and the public to revisit notable entries over time.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The archive is built with [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) and organized through structured metadata.
+It is a community-oriented preservation effort that celebrates the creativity, commentary, and tradition represented by the UP Lantern Parade.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/image.html objectid="uplp-2025-001" width="75" %} 
